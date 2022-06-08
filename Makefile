@@ -14,8 +14,22 @@ MESSAGE = echo "Generating exam questions."
 
 all:
 	@$(MESSAGE)
-	@rm -Rf 01
-	@rm -Rf 02
-	@rm -Rf 03
-	@rm -Rf 04
+	@rm -Rf 01/*
+	@rm -Rf 02/*
+	@rm -Rf 03/*
+	@rm -Rf 04/*
 	@bash script.sh
+
+comparecompile:
+	gcc compare.c gnl/get_next_line_bonus.c gnl/get_next_line_bonus.h gnl/get_next_line_utils_bonus.c -D BUFFER_SIZE=42 -o compare
+
+testcompile:
+	gcc test/text.c -o test
+
+test:
+	test/test | test/compare
+
+grademe:
+	@cd test && bash script.sh
+
+.PHONY: all test
