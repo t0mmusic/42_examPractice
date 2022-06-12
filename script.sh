@@ -1,9 +1,33 @@
 #!/bin/bash
 
-cp -R levels/level01/"$(ls levels/level01 | sort -R | tail -n1)" 01/
+current=$(ls subject/ | wc -l)
 
-cp -R levels/level02/"$(ls levels/level02 | sort -R | tail -n1)" 02/
+rm -f test/current/*
 
-cp -R levels/level03/"$(ls levels/level03 | sort -R | tail -n1)" 03/
+if [ $current == 0 ]
+then
+	subject=$(ls levels/level01 | sort -R | tail -n1)
+	cp -R levels/level01/${subject} subject/
+fi
+if [ $current == 1 ]
+then
+	subject=$(ls levels/level02 | sort -R | tail -n1)
+	cp -R levels/level02/${subject} subject/
+	fi
+if [ $current == 2 ]
+then
+	subject=$(ls levels/level03 | sort -R | tail -n1)
+	cp -R levels/level03/${subject} subject/
+fi
+if [ $current == 3 ]
+then
+	subject=$(ls levels/level04 | sort -R | tail -n1)
+	cp -R levels/level04/${subject} subject/
+fi
 
-cp -R levels/level04/"$(ls levels/level04 | sort -R | tail -n1)" 04/
+touch test/current/$subject
+
+echo "Current task: $subject
+Information can be found in subject/$subject.
+Completed files must be submitted in rendu/$subject.
+When you are ready to submit, type 'make grademe'."

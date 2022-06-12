@@ -6,18 +6,14 @@
 #    By: jbrown <jbrown@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/06 11:51:17 by jbrown            #+#    #+#              #
-#    Updated: 2022/06/06 12:21:23 by jbrown           ###   ########.fr        #
+#    Updated: 2022/06/11 13:54:47 by jbrown           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-MESSAGE = echo "Generating exam questions."
+MESSAGE = echo "Generating exam question."
 
 all:
 	@$(MESSAGE)
-	@rm -Rf 01/*
-	@rm -Rf 02/*
-	@rm -Rf 03/*
-	@rm -Rf 04/*
 	@bash script.sh
 
 comparecompile:
@@ -32,4 +28,10 @@ test:
 grademe:
 	@cd test && bash script.sh
 
-.PHONY: all test
+re:
+	@cp -R -u -p rendu/ archive/
+	@rm -rf rendu/*
+	@rm -Rf subject/*
+	@make all  --no-print-directory
+
+.PHONY: all test re
