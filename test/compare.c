@@ -104,9 +104,10 @@ int	checker(int fd_compare, int fd_trace)
 
 int main(int ac, char **av)
 {
-	int	fd_compare;
-	int	fd_trace;
-	int	fail;
+	char	*shell_args[] = {"sh", "level.sh", NULL};
+	int		fd_compare;
+	int		fd_trace;
+	int		fail;
 
 	fd_compare = open(av[1], O_RDONLY);
 	fd_trace = open(av[2], O_RDWR);
@@ -114,6 +115,9 @@ int main(int ac, char **av)
 	if (fail)
 		printf("KO :(\n");
 	if (!fail)
+	{
 		printf("OK :)\n");
+//		execv("/bin/sh", shell_args);
+	}
 	return (0);
 }

@@ -40,7 +40,6 @@ void	time_out(int pid)
 	{
 		usleep(50000);
 		waitpid(-1, &kill_val, WNOHANG);
-//		printf("Child pid?? %i %i\n", pid, kill_val);
 		if (kill_val)
 			i++;
 		else
