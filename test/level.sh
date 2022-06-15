@@ -6,27 +6,27 @@ current=$(ls subject/ | wc -l)
 
 rm -f test/current/*
 
-if [ $current == 0 ]
+if [ $current -eq 0 ]
 then
 	subject=$(ls levels/level01 | sort -R | tail -n1)
 	cp -R levels/level01/${subject} subject/
 fi
-if [ $current == 1 ]
+if [ $current -eq 1 ]
 then
 	subject=$(ls levels/level02 | sort -R | tail -n1)
 	cp -R levels/level02/${subject} subject/
 	fi
-if [ $current == 2 ]
+if [ $current -eq 2 ]
 then
 	subject=$(ls levels/level03 | sort -R | tail -n1)
 	cp -R levels/level03/${subject} subject/
 fi
-if [ $current == 3 ]
+if [ $current -eq 3 ]
 then
 	subject=$(ls levels/level04 | sort -R | tail -n1)
 	cp -R levels/level04/${subject} subject/
 fi
-if [ $current == 4 ]
+if [ $current -eq 4 ]
 then
 	echo Congratulations, you did it!
 	exit

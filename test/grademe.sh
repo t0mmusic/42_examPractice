@@ -11,8 +11,18 @@ echo Testing $question
 #compiles the input tester with the unit tests.
 gcc program.c questions/$question/test.c -o test
 
+if ! [ -d  "../rendu/${question}/" ]; then
+	echo "Missing directory!"
+	exit
+fi
+
 #Move to the directory where the program will be compiled.
 cd ../rendu/${question}/
+
+if ! [ -f  ${question}.c ]; then
+	echo "${question}.c not found!"
+	exit
+fi
 
 #Compile the program. If it is a function, it is compiled with a new main, otherwise it is compiled normally.
 if [[ $function -gt 2 ]];

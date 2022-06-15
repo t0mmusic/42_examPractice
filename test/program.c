@@ -25,10 +25,7 @@ void	print_args(char **argv)
 }
 
 /*	Checks if a process is still running, if it has run for too
-	long, kills that process.	WIP: I can either kill the parent
-	process, ending the test with no output, or I can let the parent
-	process end and leave all child processes running indefinitly.
-	Need to find a way to kill the child processes independently. */
+	long, kills that process.	 */
 
 void	time_out(int pid)
 {
@@ -46,7 +43,7 @@ void	time_out(int pid)
 			return ;
 	}
 	printf("Timeout\n");
-	kill(0, SIGKILL);
+	kill(pid, SIGKILL);
 }
 
 int	main(int ac, char **av)
@@ -59,7 +56,6 @@ int	main(int ac, char **av)
 	while (argv[0])
 	{
 		i++;
-		//print_args(argv);
 		pid = fork();
 		if (!pid)
 		{

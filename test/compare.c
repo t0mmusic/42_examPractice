@@ -41,22 +41,12 @@ void	write_args(char **args, char *s1, char *s2, int fd)
 	ft_putstr_fd("\n",  fd);
 }
 
-/*	Compares the user's output with the expected output. If there
-	is a segfault, it will return 2, if the output does not match
-	it will return 1, and if they do match, it will return 0.	*/
+/*	Compares the user's output with the expected output. Prints
+	OK or KO depending on whether the current answer matched the
+	expected outcome.	*/
 
 int	fail_check(int fd, char *user, char *expected)
 {
-	if (!strcmp(user, "Killed\n"))
-	{
-		ft_putstr_fd("Timeout\n", fd);
-		return (3);
-	}
-	if (!strcmp(user, "segmentation fault\n"))
-	{
-		ft_putstr_fd("segmentation fault\n", fd);
-		return (2);
-	}
 	if (strcmp(user, expected))
 	{
 		ft_putstr_fd("KO :(\n", fd);
@@ -113,11 +103,14 @@ int main(int ac, char **av)
 	fd_trace = open(av[2], O_RDWR);
 	fail = checker(fd_compare, fd_trace);
 	if (fail)
+	{
 		printf("KO :(\n");
+		printf("Check trace.txt in the submission folder for details.\n");
+	}
 	if (!fail)
 	{
 		printf("OK :)\n");
-//		execv("/bin/sh", shell_args);
+		execv("/bin/sh", shell_args);
 	}
 	return (0);
 }

@@ -6,15 +6,16 @@
 #    By: jbrown <jbrown@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/06 11:51:17 by jbrown            #+#    #+#              #
-#    Updated: 2022/06/13 15:07:00 by jbrown           ###   ########.fr        #
+#    Updated: 2022/06/15 20:34:51 by jbrown           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-MESSAGE = echo "Generating exam question."
-
 all:
-	@$(MESSAGE)
-	@cd test && bash level.sh
+	@cp -R -u -p rendu/ archive/
+	@rm -rf rendu/*
+	@rm -Rf subject/*
+	@cd test && gcc exam_shell.c gnl/get_next_line_bonus.c gnl/get_next_line_bonus.h gnl/get_next_line_utils_bonus.c -D BUFFER_SIZE=42 -o exam_shell
+	@cd test && ./exam_shell
 
 comparecompile:
 	gcc compare.c gnl/get_next_line_bonus.c gnl/get_next_line_bonus.h gnl/get_next_line_utils_bonus.c -D BUFFER_SIZE=42 -o compare
