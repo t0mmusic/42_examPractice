@@ -7,13 +7,21 @@ char    **tests(int i)
 {
     int     j;
     char    **ret;
-    char    *test_list[10][10] =
+    char    *test_list[30][30] =
     {
-        {"a.out", "FOR PONY", NULL},
-        {"a.out", "this        ...       is sparta, then again, maybe    not", NULL},
-        {"a.out", "   ", NULL},
-        {"a.out", "a", NULL},
-        {"a.out", "", NULL},
+        {"a.out", "0", NULL},
+        {"a.out", "100", NULL},
+        {"a.out", "-100", NULL},
+        {"a.out", "2147483647", NULL},
+        {"a.out", "-2147483648", NULL},
+        {"a.out", "2147483648", NULL},
+        {"a.out", "-2147483649", NULL},
+        {"a.out", " 	42 	", NULL},
+        {"a.out", " 4 2", NULL},
+        {"a.out", "+-42", NULL},
+        {"a.out", "4A2", NULL},
+		{"a.out", "--42", NULL},
+		{"a.out", "q42", NULL},
         {NULL},
     };
     ret = malloc(sizeof(test_list[i]));

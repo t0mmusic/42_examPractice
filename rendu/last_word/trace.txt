@@ -1,0 +1,35 @@
+OK :)
+Input: FOR PONY 
+
+Expected Output: PONY
+User Output:     PONY
+-----------------------------------
+
+OK :)
+Input: this        ...       is sparta, then again, maybe    not 
+
+Expected Output: not
+User Output:     not
+-----------------------------------
+
+OK :)
+Input:     
+
+Expected Output: 
+User Output:     
+-----------------------------------
+
+OK :)
+Input: a 
+
+Expected Output: a
+User Output:     a
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 
+User Output:     
+-----------------------------------
+

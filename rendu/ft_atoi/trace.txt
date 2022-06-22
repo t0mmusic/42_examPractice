@@ -1,0 +1,91 @@
+OK :)
+Input: 0 
+
+Expected Output: 0
+User Output:     0
+-----------------------------------
+
+OK :)
+Input: 100 
+
+Expected Output: 100
+User Output:     100
+-----------------------------------
+
+OK :)
+Input: -100 
+
+Expected Output: -100
+User Output:     -100
+-----------------------------------
+
+OK :)
+Input: 2147483647 
+
+Expected Output: 2147483647
+User Output:     2147483647
+-----------------------------------
+
+OK :)
+Input: -2147483648 
+
+Expected Output: -2147483648
+User Output:     -2147483648
+-----------------------------------
+
+OK :)
+Input: 2147483648 
+
+Expected Output: -2147483648
+User Output:     -2147483648
+-----------------------------------
+
+OK :)
+Input: -2147483649 
+
+Expected Output: 2147483647
+User Output:     2147483647
+-----------------------------------
+
+OK :)
+Input:  	42 	 
+
+Expected Output: 42
+User Output:     42
+-----------------------------------
+
+OK :)
+Input:  4 2 
+
+Expected Output: 4
+User Output:     4
+-----------------------------------
+
+OK :)
+Input: +-42 
+
+Expected Output: 0
+User Output:     0
+-----------------------------------
+
+OK :)
+Input: 4A2 
+
+Expected Output: 4
+User Output:     4
+-----------------------------------
+
+OK :)
+Input: --42 
+
+Expected Output: 0
+User Output:     0
+-----------------------------------
+
+OK :)
+Input: q42 
+
+Expected Output: 0
+User Output:     0
+-----------------------------------
+

@@ -13,7 +13,7 @@ char    **tests(int i)
         {"a.out", "this        ...       is sparta, then again, maybe    not", NULL},
         {"a.out", "   ", NULL},
         {"a.out", "a", NULL},
-        {"a.out", "", NULL},
+        {"a.out", NULL},
         {NULL},
     };
     ret = malloc(sizeof(test_list[i]));

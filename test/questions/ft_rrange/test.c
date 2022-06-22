@@ -9,11 +9,11 @@ char    **tests(int i)
     char    **ret;
     char    *test_list[10][10] =
     {
-        {"a.out", "FOR PONY", NULL},
-        {"a.out", "this        ...       is sparta, then again, maybe    not", NULL},
-        {"a.out", "   ", NULL},
-        {"a.out", "a", NULL},
-        {"a.out", "", NULL},
+        {"a.out","2147483647", "2147483640", NULL},
+        {"a.out", "0", "0", NULL},
+        {"a.out", "-5", "5", NULL},
+        {"a.out", "10", "3", NULL},
+        {"a.out", "-3", "-5", NULL},
         {NULL},
     };
     ret = malloc(sizeof(test_list[i]));

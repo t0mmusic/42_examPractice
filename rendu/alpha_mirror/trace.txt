@@ -1,0 +1,42 @@
+OK :)
+Input: AbCdE vWxYz 
+
+Expected Output: ZyXwV eDcBa
+User Output:     ZyXwV eDcBa
+-----------------------------------
+
+OK :)
+Input: this        ...       is sparta, then again, maybe    not 
+
+Expected Output: gsrh        ...       rh hkzigz, gsvm ztzrm, nzbyv    mlg
+User Output:     gsrh        ...       rh hkzigz, gsvm ztzrm, nzbyv    mlg
+-----------------------------------
+
+OK :)
+Input:     
+
+Expected Output:    
+User Output:        
+-----------------------------------
+
+OK :)
+Input: a b 
+
+Expected Output: 
+User Output:     
+-----------------------------------
+
+OK :)
+Input:  
+
+Expected Output: 
+User Output:     
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 
+User Output:     
+-----------------------------------
+

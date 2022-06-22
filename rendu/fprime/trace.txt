@@ -1,0 +1,77 @@
+OK :)
+Input: 1 2 3 4 5 6 
+
+Expected Output: 
+User Output:     
+-----------------------------------
+
+OK :)
+Input: 150 
+
+Expected Output: 2*3*5*5
+User Output:     2*3*5*5
+-----------------------------------
+
+OK :)
+Input: 183 
+
+Expected Output: 3*61
+User Output:     3*61
+-----------------------------------
+
+OK :)
+Input: 103 
+
+Expected Output: 103
+User Output:     103
+-----------------------------------
+
+OK :)
+Input: 109 
+
+Expected Output: 109
+User Output:     109
+-----------------------------------
+
+OK :)
+Input: 112293 
+
+Expected Output: 3*3*3*4159
+User Output:     3*3*3*4159
+-----------------------------------
+
+OK :)
+Input: 879844 
+
+Expected Output: 2*2*7*7*67*67
+User Output:     2*2*7*7*67*67
+-----------------------------------
+
+OK :)
+Input: 997143 
+
+Expected Output: 3*7*103*461
+User Output:     3*7*103*461
+-----------------------------------
+
+OK :)
+Input: 1688949 
+
+Expected Output: 3*3*187661
+User Output:     3*3*187661
+-----------------------------------
+
+OK :)
+Input: 804577 
+
+Expected Output: 804577
+User Output:     804577
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 
+User Output:     
+-----------------------------------
+

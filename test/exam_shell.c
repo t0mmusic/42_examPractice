@@ -6,7 +6,7 @@
 /*   By: jbrown <jbrown@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/15 20:21:45 by jbrown            #+#    #+#             */
-/*   Updated: 2022/06/15 20:44:48 by jbrown           ###   ########.fr       */
+/*   Updated: 2022/06/18 17:59:37 by jbrown           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,10 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <string.h>
-#include "./gnl/get_next_line_bonus.h"
+#include <readline/readline.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <readline/history.h>
 
 void	info_dump(void)
 {
@@ -39,19 +42,23 @@ int	main(void)
 	pid = fork();
 	if (!pid)
 		execv("/bin/sh", level_args);
+	waitpid(pid, 0, 0);
 	while (1)
 	{
-		user_input = get_next_line(0);
-		if (!strcmp("grademe\n", user_input))
+		user_input = readline(">>>");
+		add_history(user_input);
+		if (!strcmp("grademe", user_input))
 		{
 			pid = fork();
 			if (!pid)
-				execv("/bin/sh", grade_args);
+				execv("/bin/bash", grade_args);
+			waitpid(pid, 0, 0);
 		}
-		else if (!strcmp("exit\n", user_input))
+		else if (!strcmp("exit", user_input))
 			exit (0);
 		else
 			printf("Invalid input!\n");
+		free(user_input);
 	}
 	return (0);
 }

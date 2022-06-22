@@ -11,10 +11,10 @@
 /* ************************************************************************** */
 
 #include <stdio.h>
-int	ft_strlen(char *str);
+#include "../functions.h"
 
 int	main(int ac, char **av)
 {
-	printf("%i\n", ft_strlen(av[1]));
+	printf("%i\n", ft_atoi_base(av[1], atoi(av[2])));
 	return (0);
 }

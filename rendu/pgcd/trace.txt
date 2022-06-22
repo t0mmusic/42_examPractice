@@ -1,0 +1,77 @@
+OK :)
+Input: 42 10 
+
+Expected Output: 2
+User Output:     2
+-----------------------------------
+
+OK :)
+Input: 920556 1980488 
+
+Expected Output: 1124
+User Output:     1124
+-----------------------------------
+
+OK :)
+Input: 110360 116932 
+
+Expected Output: 124
+User Output:     124
+-----------------------------------
+
+OK :)
+Input: 9001392 2568344 
+
+Expected Output: 2216
+User Output:     2216
+-----------------------------------
+
+OK :)
+Input: 4696941 4664522 
+
+Expected Output: 1907
+User Output:     1907
+-----------------------------------
+
+OK :)
+Input: 2184164 5139728 
+
+Expected Output: 2204
+User Output:     2204
+-----------------------------------
+
+OK :)
+Input: 15 18 
+
+Expected Output: 3
+User Output:     3
+-----------------------------------
+
+OK :)
+Input: 1 17 
+
+Expected Output: 1
+User Output:     1
+-----------------------------------
+
+OK :)
+Input: 17 33 
+
+Expected Output: 1
+User Output:     1
+-----------------------------------
+
+OK :)
+Input: 42 4324232 
+
+Expected Output: 2
+User Output:     2
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 
+User Output:     
+-----------------------------------
+

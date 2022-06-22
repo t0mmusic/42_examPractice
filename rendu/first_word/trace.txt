@@ -1,0 +1,35 @@
+OK :)
+Input: FOR PONY 
+
+Expected Output: FOR
+User Output:     FOR
+-----------------------------------
+
+OK :)
+Input: this        ...       is sparta, then again, maybe    not 
+
+Expected Output: this
+User Output:     this
+-----------------------------------
+
+OK :)
+Input:     
+
+Expected Output: 
+User Output:     
+-----------------------------------
+
+OK :)
+Input: a b 
+
+Expected Output: 
+User Output:     
+-----------------------------------
+
+KO :(
+Input:   lorem,ipsum   
+
+Expected Output: lorem,ipsum
+User Output:     
+-----------------------------------
+

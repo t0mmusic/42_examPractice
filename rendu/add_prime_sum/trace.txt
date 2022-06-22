@@ -1,0 +1,70 @@
+OK :)
+Input: 5 
+
+Expected Output: 10
+User Output:     10
+-----------------------------------
+
+OK :)
+Input: 7 
+
+Expected Output: 17
+User Output:     17
+-----------------------------------
+
+OK :)
+Input: 17 23 42 
+
+Expected Output: 0
+User Output:     0
+-----------------------------------
+
+OK :)
+Input: -1941 
+
+Expected Output: 0
+User Output:     0
+-----------------------------------
+
+OK :)
+Input: -1941 
+
+Expected Output: 0
+User Output:     0
+-----------------------------------
+
+OK :)
+Input: -1066 
+
+Expected Output: 0
+User Output:     0
+-----------------------------------
+
+OK :)
+Input: 1509 
+
+Expected Output: 165040
+User Output:     165040
+-----------------------------------
+
+OK :)
+Input: 880 
+
+Expected Output: 60146
+User Output:     60146
+-----------------------------------
+
+OK :)
+Input: 1198 
+
+Expected Output: 106733
+User Output:     106733
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 0
+User Output:     0
+-----------------------------------
+

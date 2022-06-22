@@ -1,0 +1,700 @@
+OK :)
+Input: 
+
+Expected Output: 1
+User Output:     1
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 2
+User Output:     2
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 4
+User Output:     4
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: buzz
+User Output:     buzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 7
+User Output:     7
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 8
+User Output:     8
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: buzz
+User Output:     buzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 11
+User Output:     11
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 13
+User Output:     13
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 14
+User Output:     14
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizzbuzz
+User Output:     fizzbuzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 16
+User Output:     16
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 17
+User Output:     17
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 19
+User Output:     19
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: buzz
+User Output:     buzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 22
+User Output:     22
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 23
+User Output:     23
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: buzz
+User Output:     buzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 26
+User Output:     26
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 28
+User Output:     28
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 29
+User Output:     29
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizzbuzz
+User Output:     fizzbuzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 31
+User Output:     31
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 32
+User Output:     32
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 34
+User Output:     34
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: buzz
+User Output:     buzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 37
+User Output:     37
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 38
+User Output:     38
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: buzz
+User Output:     buzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 41
+User Output:     41
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 43
+User Output:     43
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 44
+User Output:     44
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizzbuzz
+User Output:     fizzbuzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 46
+User Output:     46
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 47
+User Output:     47
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 49
+User Output:     49
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: buzz
+User Output:     buzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 52
+User Output:     52
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 53
+User Output:     53
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: buzz
+User Output:     buzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 56
+User Output:     56
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 58
+User Output:     58
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 59
+User Output:     59
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizzbuzz
+User Output:     fizzbuzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 61
+User Output:     61
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 62
+User Output:     62
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 64
+User Output:     64
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: buzz
+User Output:     buzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 67
+User Output:     67
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 68
+User Output:     68
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: buzz
+User Output:     buzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 71
+User Output:     71
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 73
+User Output:     73
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 74
+User Output:     74
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizzbuzz
+User Output:     fizzbuzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 76
+User Output:     76
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 77
+User Output:     77
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 79
+User Output:     79
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: buzz
+User Output:     buzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 82
+User Output:     82
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 83
+User Output:     83
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: buzz
+User Output:     buzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 86
+User Output:     86
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 88
+User Output:     88
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 89
+User Output:     89
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizzbuzz
+User Output:     fizzbuzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 91
+User Output:     91
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 92
+User Output:     92
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 94
+User Output:     94
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: buzz
+User Output:     buzz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 97
+User Output:     97
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 98
+User Output:     98
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: fizz
+User Output:     fizz
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: buzz
+User Output:     buzz
+-----------------------------------
+

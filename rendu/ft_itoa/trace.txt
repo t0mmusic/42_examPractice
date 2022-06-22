@@ -1,0 +1,105 @@
+OK :)
+Input: 0 
+
+Expected Output: 0
+User Output:     0
+-----------------------------------
+
+OK :)
+Input: 2147483647 
+
+Expected Output: 2147483647
+User Output:     2147483647
+-----------------------------------
+
+OK :)
+Input: -2147483648 
+
+Expected Output: -2147483648
+User Output:     -2147483648
+-----------------------------------
+
+OK :)
+Input: -162 
+
+Expected Output: -162
+User Output:     -162
+-----------------------------------
+
+OK :)
+Input: -179 
+
+Expected Output: -179
+User Output:     -179
+-----------------------------------
+
+OK :)
+Input: 31 
+
+Expected Output: 31
+User Output:     31
+-----------------------------------
+
+OK :)
+Input: -34 
+
+Expected Output: -34
+User Output:     -34
+-----------------------------------
+
+OK :)
+Input: 101 
+
+Expected Output: 101
+User Output:     101
+-----------------------------------
+
+OK :)
+Input: -1015338 
+
+Expected Output: -1015338
+User Output:     -1015338
+-----------------------------------
+
+OK :)
+Input: 1595479 
+
+Expected Output: 1595479
+User Output:     1595479
+-----------------------------------
+
+OK :)
+Input: -1588763 
+
+Expected Output: -1588763
+User Output:     -1588763
+-----------------------------------
+
+OK :)
+Input: -1716615 
+
+Expected Output: -1716615
+User Output:     -1716615
+-----------------------------------
+
+OK :)
+Input: 311826 
+
+Expected Output: 311826
+User Output:     311826
+-----------------------------------
+
+OK :)
+Input: -1864269 
+
+Expected Output: -1864269
+User Output:     -1864269
+-----------------------------------
+
+OK :)
+Input: -391818 
+
+Expected Output: -391818
+User Output:     -391818
+-----------------------------------
+

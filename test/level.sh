@@ -37,4 +37,4 @@ touch test/current/$subject
 echo "Current task: $subject
 Information can be found in subject/$subject.
 Completed files must be submitted in rendu/$subject.
-When you are ready to submit, type 'make grademe'."
+When you are ready to submit, type 'grademe'."

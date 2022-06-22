@@ -1,0 +1,70 @@
+OK :)
+Input: 3 * 4 
+
+Expected Output: 12
+User Output:     12
+-----------------------------------
+
+OK :)
+Input: 3 + 4 
+
+Expected Output: 7
+User Output:     7
+-----------------------------------
+
+OK :)
+Input: 3 / 4 
+
+Expected Output: 0
+User Output:     0
+-----------------------------------
+
+OK :)
+Input: 3 - 4 
+
+Expected Output: -1
+User Output:     -1
+-----------------------------------
+
+OK :)
+Input: 3 % 4 
+
+Expected Output: 3
+User Output:     3
+-----------------------------------
+
+OK :)
+Input: -3 / 4 
+
+Expected Output: 0
+User Output:     0
+-----------------------------------
+
+OK :)
+Input: 3 / -4 
+
+Expected Output: 0
+User Output:     0
+-----------------------------------
+
+OK :)
+Input: 4 / 4 
+
+Expected Output: 1
+User Output:     1
+-----------------------------------
+
+OK :)
+Input: 0 + 0 
+
+Expected Output: 0
+User Output:     0
+-----------------------------------
+
+OK :)
+Input:  
+
+Expected Output: 
+User Output:     
+-----------------------------------
+

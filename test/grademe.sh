@@ -27,7 +27,7 @@ fi
 #Compile the program. If it is a function, it is compiled with a new main, otherwise it is compiled normally.
 if [[ $function -gt 2 ]];
 then
-	gcc "../../test/questions/${question}/main.c" "${question}.c"
+	gcc "../../test/questions/${question}/main.c" "-I ../../test/questions" "${question}.c"
 else
 	gcc "${question}.c"
 fi

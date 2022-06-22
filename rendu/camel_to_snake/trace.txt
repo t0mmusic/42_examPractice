@@ -1,0 +1,35 @@
+OK :)
+Input: hereIsACamelCaseWord 
+
+Expected Output: here_is_a_camel_case_word
+User Output:     here_is_a_camel_case_word
+-----------------------------------
+
+OK :)
+Input: helloWorld 
+
+Expected Output: hello_world
+User Output:     hello_world
+-----------------------------------
+
+OK :)
+Input: lzefcxQpykbmwfavFhwsjdtrQwrdyimhkuzbsTlvqhyfrajxsTdgslcvazyihbfkKinpmbzcKfirnZxtrhMtznjgesyrWfvbSirpudfCvdxsnrygbmwefSjcl 
+
+Expected Output: lzefcx_qpykbmwfav_fhwsjdtr_qwrdyimhkuzbs_tlvqhyfrajxs_tdgslcvazyihbfk_kinpmbzc_kfirn_zxtrh_mtznjgesyr_wfvb_sirpudf_cvdxsnrygbmwef_sjcl
+User Output:     lzefcx_qpykbmwfav_fhwsjdtr_qwrdyimhkuzbs_tlvqhyfrajxs_tdgslcvazyihbfk_kinpmbzc_kfirn_zxtrh_mtznjgesyr_wfvb_sirpudf_cvdxsnrygbmwef_sjcl
+-----------------------------------
+
+OK :)
+Input: usqejrgfyMzetnpLqvetawjzrGrknzpbmdcxhwMkixfostyplncbGywFyxdwombkuanFrsvwFzsextBhkazvteouwpcWvfhmjzbaxlkqIqwaxlupystzkVnxqjhut 
+
+Expected Output: usqejrgfy_mzetnp_lqvetawjzr_grknzpbmdcxhw_mkixfostyplncb_gyw_fyxdwombkuan_frsvw_fzsext_bhkazvteouwpc_wvfhmjzbaxlkq_iqwaxlupystzk_vnxqjhut
+User Output:     usqejrgfy_mzetnp_lqvetawjzr_grknzpbmdcxhw_mkixfostyplncb_gyw_fyxdwombkuan_frsvw_fzsext_bhkazvteouwpc_wvfhmjzbaxlkq_iqwaxlupystzk_vnxqjhut
+-----------------------------------
+
+OK :)
+Input: 
+
+Expected Output: 
+User Output:     
+-----------------------------------
+
